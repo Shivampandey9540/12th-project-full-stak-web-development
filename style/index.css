@@ -1,217 +1,211 @@
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-.Container{
-    height: 700px;
-    background: #636c79
+.Container {
+  height: 700px;
+  background: #636c79;
 }
-.Navbar{
-    display: flex;
-    padding-top:15px;
-    align-items: center;
-    justify-content: center;  
-}
-
-.Navbar-holder{
-    display: flex;
-    width: 80%;
-    align-items: center;
-    justify-content: center;
+.Navbar {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
-.Logo{
-width: 30%;
-}
-.Logo> img {
-     width:110px;
-}
-
-.Link-holder{
-    display: flex;
-    width: 69%;
-    justify-content: flex-end;
+.Navbar-holder {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
 }
 
-.link-list{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
+.Logo {
+  width: 30%;
+}
+.Logo > img {
+  width: 110px;
 }
 
-.link-items{
-list-style: none;
-}
-.link-items> a {
-    text-decoration: none;
-    color: #8d8d8e
-}
-.Register{
-    width: 134px;
-    display: flex;
-    text-align: center;
-    border: 1px solid #ffffff;
-    height: 40px;
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-}
-.register-button{
-    background: transparent;
-    color: #ffffff;
-    border: none;
-    font-size: 18px;
-}
-.Business-Heading-Section{
-    
-    display: flex;
-    margin-top: 66px;
-    align-items: center;
-    justify-content: space-around;
+.Link-holder {
+  display: flex;
+  width: 69%;
+  justify-content: flex-end;
 }
 
-.Business-img-holder{
-    width: 40%;
-}
-.Business-img-holder> img {
-    width: 100%;
-}
-.Business-Heading{
-    width: 40%;
-    display: flex;
-    height: 483px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: white;
-    align-items: flex-start;
+.link-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
 }
 
-.Business-Heading > h1{
-    font-size: 62px;
-    color:white
+.link-items {
+  list-style: none;
+}
+.link-items > a {
+  text-decoration: none;
+  color: #8d8d8e;
+}
+.Register {
+  width: 134px;
+  display: flex;
+  text-align: center;
+  border: 1px solid #ffffff;
+  height: 40px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.register-button {
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+}
+.Business-Heading-Section {
+  display: flex;
+  margin-top: 66px;
+  align-items: center;
+  justify-content: space-around;
 }
 
-
-
-.Email-section{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center
+.Business-img-holder {
+  width: 40%;
+}
+.Business-img-holder > img {
+  width: 100%;
+}
+.Business-Heading {
+  width: 40%;
+  display: flex;
+  height: 483px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  align-items: flex-start;
 }
 
-
-.Email-section> form{
-    display: flex;
-    height: 46px;
-    padding: 7px;
-    width:100%;
-    background-color: #ffffff;
-    justify-content: space-between;
-}
- form > input{
-    border: none;
-    width: 59%;
-    background: transparent;
+.Business-Heading > h1 {
+  font-size: 62px;
+  color: white;
 }
 
- .Lets-talk{
-    color:white;
-    background-color: #8bb7a2;
-    width: 25%;
-    border-radius: 5px;
-    border:none
-}
-form > input:active, :focus {
-outline: none;
-}
-.Target-Section{
-    display: flex;
-    gap: 35px;
-    margin-top: 155px;
-    flex-direction: column;
-    align-items: center;
+.Email-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.Target-Number-holder{
-    display: flex;
-    align-items: center;
-    width: 80%;
-    text-align: center;
-    justify-content: space-evenly;
+.Email-section > form {
+  display: flex;
+  height: 46px;
+  padding: 7px;
+  width: 100%;
+  background-color: #ffffff;
+  justify-content: space-between;
 }
-.Target-image{
-    width: 68%;
-    height: 749px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Target-image> img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+form > input {
+  border: none;
+  width: 59%;
+  background: transparent;
 }
 
-
-.Feature-Section{
-    display: flex;
-    margin-top: 114px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.Lets-talk {
+  color: white;
+  background-color: #8bb7a2;
+  width: 25%;
+  border-radius: 5px;
+  border: none;
+}
+form > input:active,
+:focus {
+  outline: none;
+}
+.Target-Section {
+  display: flex;
+  gap: 35px;
+  margin-top: 155px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.Feature-image> img{
-    width: 100%;
-    object-fit: contain;
-    height: 100%;
+.Target-Number-holder {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  justify-content: space-evenly;
 }
-.feature-Heading-holder{
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    gap: 52px;
-    align-items: center;
+.Target-image {
+  width: 68%;
+  height: 749px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Card{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.feature-info{
-    width: 45%;
-    height: 256px;
-    display: flex;
-    width: 38%;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.feature-info> h1{
-    font-size: 43px;
-}
-.Feature-image{
-    display: flex;
-    height: 500px;
-    width: 45%;
-    align-items: center;
-}
-.feature-info> p {
-    font-size: 17px;
-    font-weight: 100;
-    color: gray;
-    line-height: 25px;
+.Target-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
-.feature-talk{
-    height: 41px;
-    border-radius: 5px;
-    height: 35px;
+.Feature-Section {
+  display: flex;
+  margin-top: 114px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Feature-image > img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.feature-Heading-holder {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  gap: 52px;
+  align-items: center;
+}
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature-info {
+  width: 45%;
+  height: 256px;
+  display: flex;
+  width: 38%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.feature-info > h1 {
+  font-size: 43px;
+}
+.Feature-image {
+  display: flex;
+  height: 500px;
+  width: 45%;
+  align-items: center;
+}
+.feature-info > p {
+  font-size: 17px;
+  font-weight: 100;
+  color: gray;
+  line-height: 25px;
+}
+
+.feature-talk {
+  height: 41px;
+  border-radius: 5px;
+  height: 35px;
 }
 /* .Team-image{
     width: 200px;
@@ -219,105 +213,179 @@ outline: none;
 } */
 
 .Team-image > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-.Teams-section{
-    margin-top: 150px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.Teams-section {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.Teams-Heading{
-    display: flex;
-    width: 80%;
-    justify-content: space-around;
+.Teams-Heading {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
 }
-.Teams-Heading>h1{
-    font-size: 60px;
-    width: 45%;
+.Teams-Heading > h1 {
+  font-size: 60px;
+  width: 45%;
 }
-.Teams-Heading>p{
-    font-size: 20px;
-    line-height: 29px;
-    width: 38%;
-    color: #808080;
+.Teams-Heading > p {
+  font-size: 20px;
+  line-height: 29px;
+  width: 38%;
+  color: #808080;
 }
-.Team-img-section{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top:35px;
+.Team-img-section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 35px;
 }
-.Team-card{
-    display: flex;
-    width: 30%;
-    flex-direction: column;
- 
-    gap:30px;
+.Team-card {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+
+  gap: 30px;
 }
-.Team-card > p{
-    font-size: 15px;
-    width: 79%;
-    color: gray;
+.Team-card > p {
+  font-size: 15px;
+  width: 79%;
+  color: gray;
 }
-.Team-image{
-    width: 79%;
+.Team-image {
+  width: 79%;
 }
 
-.Footer-Section{
-    display: flex;
-    margin-top: 100px;
-    flex-direction: column;
-    gap:25px;
-    align-items: center;
-    background-color: #10181d;
+.Footer-Section {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  background-color: #10181d;
 }
-.Footer-Uper-section{
-    margin-top: 46px;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    align-items: center;
+.Footer-Uper-section {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
 }
-.Footer-Lower-section{
-    margin-top: 46px;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    align-items: center;
+.Footer-Lower-section {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
 }
-.Social-media{
+.Social-media {
   width: 30%;
 }
-.Line{
-    height: 1px;
+.Line {
+  height: 1px;
+  width: 80%;
+  background-color: #606060;
+}
+.Social-media > ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.Footer-options-section > ul > li,
+h2 {
+  color: white;
+}
+
+.Footer-options-section {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.Footer-options-section > ul {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1280px) {
+  .link-list {
+    display: none;
+  }
+  .Business-Heading-Section {
+    flex-direction: column;
+  }
+  .Business-img-holder {
     width: 80%;
-    background-color: #606060;
-}
-.Social-media> ul{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly
-}
-
-.Footer-options-section > ul > li, h2{
-color:white;
-}
-
-.Footer-options-section{
+  }
+  .Business-Heading {
+    width: 80%;
+    height: 29vh;
+  }
+  .Business-img-holder > img {
+    width: 50%;
+  }
+  .Business-Heading > h1 {
+    font-size: 30px;
+  }
+  .Target-Heading {
+    width: 80%;
+  }
+  .Target-Heading > h1 {
+    font-size: 30px;
+  }
+  .Target-Number > h1 {
+    font-size: 14px;
+  }
+  .Target-Number > span {
+    font-size: 13px;
+  }
+  .Target-image {
     height: 300px;
-    display: flex;
+  }
+  .Target-image > img {
+    width: 100%;
+    height: 100%;
+  }
+  .Card {
+    flex-direction: column;
+  }
+  .feature-info {
+    width: 85%;
+    height: 350px;
+  }
+  .Teams-Heading {
     flex-direction: column;
     align-items: center;
-    justify-content: space-around
-}
-.Footer-options-section > ul{
-    display: flex;
+  }
+  .Teams-Heading > h1 {
+    width: 80%;
+  }
+  .Teams-Heading > p {
+    width: 80%;
+  }
+  .Footer-options-section {
     flex-direction: column;
-    height: 80%;
-    justify-content: space-around;
+  }
+  .Social-media {
+    width: 60%;
+  }
+  .Social-media > ul > li > a > img {
+    width: 30px;
+  }
+  .feature-info > h1 {
+    font-size: 33px;
+  }
+  .Feature-image {
+    height: 200px;
+  }
 }
